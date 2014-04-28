@@ -21,3 +21,9 @@ var add = function(a, b){
 var x = add(num1, num2);
 
 cl(x);
+
+function minus(x, y){
+	return x - y;
+}
+
+cl(minus(2, 3));
