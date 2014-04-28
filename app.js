@@ -1,4 +1,5 @@
 var assert = require("assert");
+var turd = require("./lap");
 
 (function(){
 	this.cl = function(string){
@@ -29,3 +30,5 @@ function minus(x, y){
 cl(minus(2, 3));
 
 //here is a comment
+
+turd();
